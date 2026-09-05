@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #0F172A;
+    --Secondary: #f97316;
+    --Tertiary: #10b981;
+    --Neutral: #64748B;
+}
