@@ -1,3 +1,154 @@
-@import url(./global.css)
+@import url(./global.css);
+
+.hero {
+    width: 100%;
+    background: linear-gradient(135deg, rgba(19, 27, 46, 0.9) 0%, rgba(19, 27, 46, 0.7) 50%, rgba(19, 27, 46, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 110px 528px 110px 80px;
+    height: 640px;
+}
 
 
+.hero p:nth-child(1) {
+    background-color: #FD761A;
+    color: #5C2400;
+    font-weight: 600;
+    padding: 4px 12px;
+    font-size: 14px;
+    width: 213px;
+    border-radius: 40px;
+}
+
+.hero h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.hero p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    width: 533px;
+    opacity: 0.8;
+}
+
+.btn_hero {
+    display: flex;
+    align-items: center;
+    gap: 23.73px;
+}
+
+.btn_hero a {
+    background-color: #9D4300;
+    padding: 13px 32px;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 90px;
+    border: 0;
+    font-weight: 600;
+
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    gap: 80px;
+}
+
+main img {
+    width: 520px;
+    height: 520px;
+    border-radius: 40px;
+}
+
+.nossa_missao {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.nossa_missao h3 {
+    font-size: 24px;
+}
+
+.nossa_missao p {
+    width: 510px;
+    font-size: 18px;
+    color: #45464D;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.nosso_foco {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.nosso_foco h3 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.nosso_foco img {
+    width: 40px;
+    height: 40px;
+}
+
+.metrics-section {
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #131B2E;
+}
+
+.metrics-section div {
+    background-color: #2f3548;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 242px;
+    height: 206px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 24px 64.58px;
+}
+
+.metrics-section img {
+    width: 40px;
+    height: 30px;
+}
+
+.metrics-section h4 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.metrics-section p {
+    color: #7C839B;
+    font-size: 14px;
+    width: 164px;
+}
+
+.conteiner {
+    width: 100%;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 40px;
+
+}
