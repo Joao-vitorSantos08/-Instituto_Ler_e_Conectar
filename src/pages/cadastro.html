@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../assets/image/logo.png" alt="logo" title="logo Instituto Ler e Conectar">
+            <h1>Instituto Ler e Conectar</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="./projetos.html">Projetos</a></li>
+                <li><a href="#">Cadastro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <span>INSCRIÇÃO</span>
+            <h2>Faça Parte da Nossa Comunidade</h2>
+            <p>
+                Junte-se a centenas de jovens transformando seus futuros
+                através da educação e tecnologia.
+            </p>
+        </div>
+    </section>
+    <main>
+        <div>
+            <span>
+                <img src="../assets/image/cadastro/icone_lampada.png" alt="icone de lampada">
+                <h3>Por que se inscrever?</h3>
+            </span>
+            <ol>
+                <li>
+                    <h4>Acesso Gratuito</h4>
+                    <p>Todos os nossos cursos e materiais
+                        de apoio são 100% gratuitos para
+                        alunos da rede pública.</p>
+                </li>
+                <li>
+                    <h4>Mentoria Especializada</h4>
+                    <p>Todos os nossos cursos e materiais
+                        de apoio são 100% gratuitos para
+                        alunos da rede pública.</p>
+                </li>
+                <li>
+                    <h4>Rede de Oportunidades</h4>
+                    <p>Conexão direta com empresas
+                        parceiras em busca de novos
+                        talentos.</p>
+                </li>
+            </ol>
+        </div>
+        <section class="section_form">
+            <span>
+                <h2>Formulário de Inscrição</h2>
+                <img src="../assets/image/cadastro/prancheta_icone.png" alt="icone de pracheta">
+            </span>
+            <form>
+                <div>
+                    <label>Nome Completo</label>
+                    <input type="text" placeholder="Ex: Maria Silva" required>
+                </div>
+                <div>
+                    <label>CPF</label>
+                    <input type="text" placeholder="000.000.000-00" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"
+                        required>
+                </div>
+                <div>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="seu.email@exemplo.com" required>
+                </div>
+                <div>
+                    <label>Telefone / WhatsApp</label>
+                    <input type="tel" placeholder="(00) 00000-0000" required>
+                </div>
+                <div>
+                    <label>Data de Nascimento</label>
+                    <input type="date" required>
+                </div>
+                <div>
+                    <select required>
+                        <option value="" disabled selected>Selecione um projeto</option>
+                        <option value="conecta-jovem">Conecta Jovem</option>
+                        <option value="ler-e-crescer">Ler e Crescer</option>
+                        <option value="ingles-para-o-futuro">Inglês para o Futuro</option>
+                    </select>
+                </div>
+                <div>
+                    <button>Enviar Cadastro <img src="../assets/image/cadastro/seta.png" alt=""> </button>
+                    <p>Seus dados estão seguros conosco e não
+                        serão compartilhados com terceiros.</p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="conteiner_footer">
+            <div class="logo">
+                <img src="../assets/image/logo.png" alt="">
+                <p>Transformando o futuro através da educação e tecnologia.
+                    Um compromisso com o desenvolvimento humano e social.</p>
+            </div>
+            <nav class="nav_footer">
+                <p>LINKS RÁPIDOS</p>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Transparência</a></li>
+                    <li><a href="#">Seja um Voluntário</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <div class="icones">
+                    <img src="../assets/image/icone_conpartilhar.png" alt="">
+                    <img src="../assets/image/icone_email.png" alt="">
+                    <img src="../assets/image/icone_grupoDepessoas.png" alt="">
+                </div>
+                <p>contato@lereconectar.org.br</p>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <p>© 2026 Instituto Ler e Conectar. Todos os direitos reservados. CNPJ: 00.000.000/0001-00</p>
+        </div>
+    </footer>
+</body>
+
+</html>
