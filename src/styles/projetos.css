@@ -1,0 +1,720 @@
+@import url("./global.css");
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 0 40px;
+    gap: clamp(60px, 12vw, 288px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 576px;
+}
+
+.container>div {
+    display: flex;
+    align-items: center;
+    color: #9D4300;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.container span {
+    background-color: #9D4300;
+    width: 48px;
+    height: 4px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.container h2 {
+    width: 100%;
+    max-width: 428px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.paragrafo {
+    width: 100%;
+    max-width: 550px;
+    color: #45464D;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.images {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.images>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.images>div {
+    position: absolute;
+    bottom: -45px;
+    right: -50px;
+
+    background-color: #9D4300;
+    padding: 24px;
+    border-radius: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images>div img {
+    width: 40px;
+    height: auto;
+    object-fit: contain;
+}
+
+.projeto_tec {
+    background-color: #E5EEFF;
+
+    display: flex;
+    align-items: center;
+
+    gap: clamp(40px, 6vw, 80px);
+
+    padding: 80px 40px;
+}
+
+.projeto_tec>.images {
+    flex: 0 1 500px;
+}
+
+.projeto_tec>.images>img {
+    width: 100%;
+    max-width: 500px;
+    height: 525px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.infor_curso_tec {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 576px;
+}
+
+.infor_curso_tec>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.infor_curso_tec>div h2:nth-child(1) {
+    font-size: 24px;
+}
+
+.infor_curso_tec>div:nth-child(1) p {
+    color: #45464D;
+    font-size: 16px;
+    line-height: 1.6;
+
+    width: 100%;
+    max-width: 550px;
+}
+
+.cursos_tec {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 23px;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.cursos_tec li {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    gap: 4px;
+
+    background-color: #F8F9FF;
+    padding: 11px 23px;
+    border-radius: 30px;
+
+    min-height: 40px;
+}
+
+.cursos_tec li img {
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+
+.impacto_tec {
+    background-color: #131B2E;
+
+    padding: 40px;
+    color: #7C839B;
+
+    border-radius: 20px;
+}
+
+.impacto_tec span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.impacto_tec img {
+    width: 20px;
+    height: 20px;
+}
+
+.impacto_tec p {
+    line-height: 1.6;
+}
+
+.projeto_ler_e_crescer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    gap: clamp(40px, 6vw, 80px);
+
+    padding: 80px 40px;
+}
+
+.conteiner_ler_crescer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    width: 100%;
+    max-width: 580px;
+}
+
+.conteiner_ler_crescer>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.conteiner_ler_crescer>div:nth-child(1) h2 {
+    font-size: 24px;
+}
+
+.conteiner_ler_crescer>div:nth-child(1) p {
+    font-size: 16px;
+    color: #45464D;
+
+    width: 100%;
+    max-width: 560px;
+
+    line-height: 1.6;
+}
+
+.cursos_de_leitura {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+    width: 100%;
+    max-width: 580px;
+
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
+
+.cursos_de_leitura li {
+    background-color: #EFF4FF;
+
+    padding: 12px 20px;
+
+    display: flex;
+    align-items: flex-start;
+
+    gap: 12px;
+
+    width: 100%;
+    box-sizing: border-box;
+
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.cursos_de_leitura span {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cursos_de_leitura span img {
+    width: 22px;
+    height: 18px;
+}
+
+.cursos_de_leitura span h4 {
+    color: #0B1C30;
+    margin: 0;
+}
+
+.cursos_de_leitura span p {
+    color: #45464D;
+    font-size: 12px;
+    margin: 0;
+}
+
+.impacto_social {
+    background-color: #002113;
+
+    padding: 40px;
+
+    border-radius: 12px;
+}
+
+.impacto_social span {
+    display: flex;
+    gap: 12px;
+
+    color: #009668;
+
+    align-items: center;
+}
+
+.impacto_social span img {
+    width: 20px;
+    height: 20px;
+}
+
+.impacto_social p {
+    color: #009668;
+    font-size: 16px;
+
+    width: 100%;
+    max-width: 460px;
+
+    line-height: 1.6;
+}
+
+.roda_de_leitura {
+    max-width: 420px;
+}
+
+.roda_de_leitura img {
+    width: 100%;
+    max-width: 420px;
+    height: 525px;
+
+    object-fit: cover;
+
+    border-radius: 14px;
+}
+
+.projeto_idioma {
+    background-color: #E5EEFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: clamp(40px, 7vw, 100px);
+    padding: 80px 40px;
+}
+
+.projeto_idioma>div:nth-child(1) {
+    width: 100%;
+    max-width: 420px;
+}
+
+.projeto_idioma>div:nth-child(1) img {
+    width: 100%;
+    max-width: 420px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.projeto_idioma>div:nth-child(1) h3 {
+    font-size: 20px;
+    width: 100%;
+    max-width: 420px;
+    min-height: 128px;
+    height: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #FFF;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.conteiner_idioma {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 580px;
+}
+
+.conteiner_idioma h2 {
+    font-size: 24px;
+}
+
+.conteiner_idioma>p {
+    font-size: 16px;
+    color: #45464D;
+    width: 100%;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+.niveis_cursos_inglês {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    width: 100%;
+    max-width: 580px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.niveis_cursos_inglês li {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    background-color: #FFF;
+    color: #0B1C30;
+    border-radius: 20px;
+    text-align: center;
+    border-left: solid 10px #0B1C30;
+}
+
+.impacto_social_projeto_idioma {
+    width: 100%;
+    max-width: 580px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FD761A;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.impacto_social_projeto_idioma span {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.impacto_social_projeto_idioma h3 {
+    color: #5C2400;
+    font-size: 20px;
+}
+
+.impacto_social_projeto_idioma p {
+    padding: 0;
+    color: #5C2400;
+    width: 100%;
+    max-width: 555px;
+    line-height: 1.6;
+}
+
+@media (max-width: 1100px) {
+    .projeto_idioma {
+        gap: 40px;
+    }
+
+    .projeto_idioma>div:nth-child(1) {
+        max-width: 380px;
+    }
+
+    .projeto_idioma>div:nth-child(1) img {
+        height: 400px;
+    }
+
+    .conteiner_idioma {
+        max-width: 500px;
+    }
+
+    .impacto_social_projeto_idioma {
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 850px) {
+    .projeto_idioma {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 30px;
+        gap: 50px;
+    }
+
+    .projeto_idioma>div:nth-child(1) {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .projeto_idioma>div:nth-child(1) img {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        aspect-ratio: 420 / 450;
+    }
+
+    .projeto_idioma>div:nth-child(1) h3 {
+        max-width: 500px;
+    }
+
+    .conteiner_idioma {
+        width: 100%;
+        max-width: 650px;
+    }
+
+    .conteiner_idioma>p {
+        max-width: 100%;
+    }
+
+    .niveis_cursos_inglês {
+        max-width: 100%;
+    }
+
+    .impacto_social_projeto_idioma {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .projeto_idioma {
+        padding: 50px 20px;
+        gap: 35px;
+    }
+
+    .projeto_idioma>div:nth-child(1) img {
+        aspect-ratio: 420 / 450;
+    }
+
+    .projeto_idioma>div:nth-child(1) h3 {
+        font-size: 18px;
+        min-height: 110px;
+        padding: 20px;
+    }
+
+    .conteiner_idioma {
+        gap: 20px;
+    }
+
+    .conteiner_idioma h2 {
+        font-size: 22px;
+    }
+
+    .conteiner_idioma>p {
+        font-size: 15px;
+    }
+
+    .niveis_cursos_inglês {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .niveis_cursos_inglês li {
+        padding: 12px 15px;
+    }
+
+    .impacto_social_projeto_idioma {
+        margin-top: 20px;
+        padding: 25px;
+    }
+
+    .impacto_social_projeto_idioma h3 {
+        font-size: 18px;
+    }
+
+    .impacto_social_projeto_idioma p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    section {
+        gap: 50px;
+    }
+
+    .container h2 {
+        font-size: 42px;
+    }
+
+    .projeto_tec,
+    .projeto_ler_e_crescer {
+        gap: 40px;
+    }
+
+    .projeto_tec>.images>img {
+        height: 450px;
+    }
+
+    .roda_de_leitura img {
+        height: 450px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    section {
+        flex-direction: column;
+        padding: 0 30px;
+        margin-top: 60px;
+    }
+
+    .images div:nth-child(2) {
+        display: none;
+    }
+
+    .container {
+        max-width: 650px;
+    }
+
+    .container h2 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+
+    .paragrafo {
+        max-width: 100%;
+    }
+
+    .images {
+        max-width: 500px;
+    }
+
+    .projeto_tec,
+    .projeto_ler_e_crescer {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 30px;
+    }
+
+    .projeto_tec>.images {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .projeto_tec>.images>img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .infor_curso_tec,
+    .conteiner_ler_crescer {
+        max-width: 650px;
+    }
+
+    .cursos_tec,
+    .cursos_de_leitura {
+        width: 100%;
+    }
+
+    .roda_de_leitura {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .roda_de_leitura img {
+        width: 100%;
+        height: auto;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    section {
+        padding: 0 20px;
+        margin-top: 40px;
+    }
+
+    .container {
+        gap: 18px;
+    }
+
+    .container h2 {
+        font-size: 34px;
+        line-height: 1.15;
+    }
+
+    .paragrafo {
+        font-size: 16px;
+    }
+
+    .images>div {
+        bottom: -25px;
+        right: -20px;
+
+        padding: 18px;
+    }
+
+    .images>div img {
+        width: 30px;
+    }
+
+    .projeto_tec,
+    .projeto_ler_e_crescer {
+        padding: 50px 20px;
+    }
+
+    .projeto_tec>.images>img {
+        height: auto;
+    }
+
+    .infor_curso_tec {
+        gap: 20px;
+    }
+
+    .cursos_tec {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .cursos_tec li {
+        justify-content: flex-start;
+    }
+
+    .impacto_tec,
+    .impacto_social {
+        padding: 25px;
+    }
+
+    .cursos_de_leitura {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .cursos_de_leitura li {
+        width: 100%;
+    }
+
+    .roda_de_leitura img {
+        height: auto;
+    }
+}
