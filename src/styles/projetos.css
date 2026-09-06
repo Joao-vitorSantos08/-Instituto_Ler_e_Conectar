@@ -440,70 +440,6 @@ section {
     line-height: 1.6;
 }
 
-@media (max-width: 1100px) {
-    .projeto_idioma {
-        gap: 40px;
-    }
-
-    .projeto_idioma>div:nth-child(1) {
-        max-width: 380px;
-    }
-
-    .projeto_idioma>div:nth-child(1) img {
-        height: 400px;
-    }
-
-    .conteiner_idioma {
-        max-width: 500px;
-    }
-
-    .impacto_social_projeto_idioma {
-        max-width: 500px;
-    }
-}
-
-@media (max-width: 850px) {
-    .projeto_idioma {
-        flex-direction: column;
-        align-items: center;
-        padding: 60px 30px;
-        gap: 50px;
-    }
-
-    .projeto_idioma>div:nth-child(1) {
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .projeto_idioma>div:nth-child(1) img {
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-        aspect-ratio: 420 / 450;
-    }
-
-    .projeto_idioma>div:nth-child(1) h3 {
-        max-width: 500px;
-    }
-
-    .conteiner_idioma {
-        width: 100%;
-        max-width: 650px;
-    }
-
-    .conteiner_idioma>p {
-        max-width: 100%;
-    }
-
-    .niveis_cursos_inglês {
-        max-width: 100%;
-    }
-
-    .impacto_social_projeto_idioma {
-        max-width: 100%;
-    }
-}
-
 @media (max-width: 600px) {
     .projeto_idioma {
         padding: 50px 20px;
@@ -511,7 +447,9 @@ section {
     }
 
     .projeto_idioma>div:nth-child(1) img {
-        aspect-ratio: 420 / 450;
+        width: 340px;
+        margin:  0 auto;
+        object-fit: cover;
     }
 
     .projeto_idioma>div:nth-child(1) h3 {
