@@ -65,39 +65,64 @@
                 <img src="../assets/image/cadastro/prancheta_icone.png" alt="icone de pracheta">
             </span>
             <form>
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+
+                    <div>
+                        <label>Nome Completo</label>
+                        <input type="text" placeholder="Ex: Maria Silva" required>
+                    </div>
+
+                    <div>
+                        <label>CPF</label>
+                        <input type="text" placeholder="000.000.000-00" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"
+                            required>
+                    </div>
+
+                    <div>
+                        <label>E-mail</label>
+                        <input type="email" placeholder="seu.email@exemplo.com" required>
+                    </div>
+
+                    <div>
+                        <label>Telefone / WhatsApp</label>
+                        <input type="tel" placeholder="(00) 00000-0000" required>
+                    </div>
+
+                    <div>
+                        <label>Data de Nascimento</label>
+                        <input type="date" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Projeto de interesse</legend>
+
+                    <div>
+                        <label>Projeto</label>
+                        <select required>
+                            <option value="" disabled selected>
+                                Selecione um projeto
+                            </option>
+                            <option value="conecta-jovem">Conecta Jovem</option>
+                            <option value="ler-e-crescer">Ler e Crescer</option>
+                            <option value="ingles-para-o-futuro">
+                                Inglês para o Futuro
+                            </option>
+                        </select>
+                    </div>
+                </fieldset>
+
                 <div>
-                    <label>Nome Completo</label>
-                    <input type="text" placeholder="Ex: Maria Silva" required>
-                </div>
-                <div>
-                    <label>CPF</label>
-                    <input type="text" placeholder="000.000.000-00" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"
-                        required>
-                </div>
-                <div>
-                    <label>E-mail</label>
-                    <input type="email" placeholder="seu.email@exemplo.com" required>
-                </div>
-                <div>
-                    <label>Telefone / WhatsApp</label>
-                    <input type="tel" placeholder="(00) 00000-0000" required>
-                </div>
-                <div>
-                    <label>Data de Nascimento</label>
-                    <input type="date" required>
-                </div>
-                <div>
-                    <select required>
-                        <option value="" disabled selected>Selecione um projeto</option>
-                        <option value="conecta-jovem">Conecta Jovem</option>
-                        <option value="ler-e-crescer">Ler e Crescer</option>
-                        <option value="ingles-para-o-futuro">Inglês para o Futuro</option>
-                    </select>
-                </div>
-                <div>
-                    <button>Enviar Cadastro <img src="../assets/image/cadastro/seta.png" alt=""> </button>
-                    <p>Seus dados estão seguros conosco e não
-                        serão compartilhados com terceiros.</p>
+                    <button type="submit">
+                        Enviar Cadastro
+                        <img src="../assets/image/cadastro/seta.png" alt="">
+                    </button>
+
+                    <p>
+                        Seus dados estão seguros conosco e não serão compartilhados
+                        com terceiros.
+                    </p>
                 </div>
             </form>
         </section>
